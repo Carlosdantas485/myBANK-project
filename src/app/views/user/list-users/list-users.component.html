@@ -1,12 +1,16 @@
 
-<mat-card class="home mat-elevation-z3" >
+<mat-card class="list mat-elevation-z3" >
     <mat-card-title class="title">
         Bem-vindo ao MyBANK
     </mat-card-title>
     <mat-card-subtitle class="subtitle">
         <p>Nosso sistema de banco utiliza as ferarmenta mais seguras e atualizadas do mercado.</p>
         <div class="create-new-user">
-            <a routerLink="/users/create"> <button>NOVO USUARIO</button></a>
+            <a routerLink="/users/create"> <button class="btn">NOVO USUARIO</button></a>
+            <div class="search">
+                <input type="text" placeholder="Buscar usuario por ID">
+                <a routerLink="/users/create"> <button class="btn">BUSCAR</button></a>
+            </div>
         </div>
     </mat-card-subtitle>
           
@@ -37,7 +41,7 @@
                         <p>Telefone: (11) 98350-2027</p>
                         </div>
                         <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                        <button>Depositar na conta</button>
+                        <button class="btn">Depositar na conta</button>
                 </div>
             </li>
             <li class="user">
@@ -65,7 +69,7 @@
                         <p>Telefone: (11) 98350-2027</p>
                     </div>
                     <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <button>Depositar na conta</button>
+                    <button class="btn-deposit">Depositar na conta</button>
                 </div>
             </li>
             <li class="user">
@@ -93,7 +97,7 @@
                         <p>Telefone: (11) 98350-2027</p>
                     </div>
                     <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <button>Depositar na conta</button>
+                    <button class="btn-deposit">Depositar na conta</button>
                 </div>
             </li>
             <li class="user">
@@ -121,7 +125,7 @@
                         <p>Telefone: (11) 98350-2027</p>
                     </div>
                     <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <button>Depositar na conta</button>
+                    <button class="btn-deposit">Depositar na conta</button>
                 </div>
             </li>
             <li class="user">
@@ -149,7 +153,7 @@
                         <p>Telefone: (11) 98350-2027</p>
                     </div>
                     <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <button>Depositar na conta</button>
+                    <button class="btn-deposit">Depositar na conta</button>
                 </div>
             </li>
             <li class="user">
@@ -177,7 +181,7 @@
                         <p>Telefone: (11) 98350-2027</p>
                     </div>
                     <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <button>Depositar na conta</button>
+                    <button class="btn-deposit">Depositar na conta</button>
                 </div>
             </li>
             <li class="user">

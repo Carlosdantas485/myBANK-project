@@ -1,19 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .create-new-user{
     width: 100%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
-.content-list-users{
-    margin: 20px;
+.search{
+    display: flex;
+    margin: 0 20px;
 }
 
 .user{
     margin-top: 10px;
     background-color: white;
     color: black;
+    padding: 20px;
 }
+
 .photo-user{
     width: 90px;
     border-radius: 50px;
@@ -33,16 +39,20 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.edit-options button{
+    padding: 5px;
+    background-color: transparent;
+}
 
+.btn{
+    height: 40px;
+    padding: 10px;
 }
 
 .balance{
     text-decoration: underline;
     font-weight: bold;
-}
-
-.edit-options button{
-    background-color: transparent;
 }
 
 .edit{

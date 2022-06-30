@@ -1,23 +1,23 @@
-*{
-    margin: 0%;
-    padding: 0;
-}
+
+
 .update{
     padding: 20px;
 }
+
 .info-user{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
+
 .user{
     padding: 20px;
     margin-top: 10px;
     background-color: white;
     color: black;
-    
 }
+
 .photo-user{
     width: 90px;
     border-radius: 50px;
@@ -33,13 +33,30 @@
 
 .form{
     width: 30vw;
+    flex-wrap: wrap;
 }
 
 .input{
     margin-top: 10px;
 }
-.enviar{
-    margin-top: 20px;
+.button-box{
     width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.send{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.cancel{
+    margin-top: 20px;
+    background-color: red;
+    width: 150px;
 }
 
