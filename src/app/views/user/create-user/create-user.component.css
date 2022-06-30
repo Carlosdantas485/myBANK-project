@@ -1,0 +1,33 @@
+*{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+}
+
+.content-create-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.forms{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+}
+
+.input-box{
+    margin-top: 10px;
+}
+
+.btn-send{
+    margin-top: 20px;
+    color: white;
+}

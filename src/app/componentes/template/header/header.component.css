@@ -1,3 +1,10 @@
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -7,4 +14,17 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+}
+
+.exit{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding:5px 10px;
+    margin-left: 20px;
 }

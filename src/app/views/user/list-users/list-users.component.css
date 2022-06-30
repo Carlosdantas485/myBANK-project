@@ -1,0 +1,55 @@
+.create-new-user{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content-list-users{
+    margin: 20px;
+}
+
+.user{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    
+}
+.photo-user{
+    width: 90px;
+    border-radius: 50px;
+    border: 5px solid #3F51B5;
+    margin-bottom: 20px;
+}
+
+.info-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.edit-options{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.balance{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.edit-options button{
+    background-color: transparent;
+}
+
+.edit{
+    color: green;
+}
+.delete{
+    color: red;
+}
