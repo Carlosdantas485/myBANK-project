@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.update{
+    padding: 20px;
+}
+.info-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.user{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    
+}
+.photo-user{
+    width: 90px;
+    border-radius: 50px;
+    border: 5px solid #3F51B5;
+    margin: 20px;
+}
+
+.info-user{
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.form{
+    width: 30vw;
+}
+
+.input{
+    margin-top: 10px;
+}
+.enviar{
+    margin-top: 20px;
+    width: 100%;
+}
+

@@ -21,10 +21,8 @@
     align-items: center;
 }
 
-.exit{
-    background-color: red;
-    display: flex;
-    align-items: center;
-    padding:5px 10px;
-    margin-left: 20px;
+.login{
+    width: 120px;
+    background-color: rgb(40, 132, 218);
+    text-decoration: underline;
 }

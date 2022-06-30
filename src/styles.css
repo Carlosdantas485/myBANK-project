@@ -24,3 +24,7 @@ button{
 li{
     list-style: none;
 }
+input {
+    height: 40px;
+    width: 100%;
+}

@@ -21,6 +21,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { CreateUserComponent } from './views/user/create-user/create-user.component';
 import { ListUsersComponent } from './views/user/list-users/list-users.component';
 import { UpdateUserComponent } from './views/user/update-user/update-user.component';
+import { LoginComponent } from './views/user/login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { UpdateUserComponent } from './views/user/update-user/update-user.compon
     HomeComponent,
     CreateUserComponent,
     ListUsersComponent,
-    UpdateUserComponent
+    UpdateUserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

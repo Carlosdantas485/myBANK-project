@@ -5,6 +5,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ListUsersComponent } from './views/user/list-users/list-users.component';
 import { CreateUserComponent } from './views/user/create-user/create-user.component';
 import { UpdateUserComponent } from './views/user/update-user/update-user.component';
+import { LoginComponent } from './views/user/login/login.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path:"users/update",
     component: UpdateUserComponent
+  },
+  {
+    path:"login",
+    component: LoginComponent
   }
 ];
 
