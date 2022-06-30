@@ -7,13 +7,14 @@
     padding: 20px;
 }
 .create-new-user{
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .search{
     display: flex;
-    margin: 0 20px;
 }
 
 .user{
@@ -21,12 +22,14 @@
     background-color: white;
     color: black;
     padding: 20px;
+    box-shadow: 5px 5px 1px 0px rgb(0, 0, 0);
 }
 
 .photo-user{
     width: 90px;
     border-radius: 50px;
-    border: 5px solid #3F51B5;
+    border: 3px solid #3F51B5;
+    box-shadow: 1px 1px 10px 1px rgb(95, 95, 95);
     margin-bottom: 20px;
 }
 
