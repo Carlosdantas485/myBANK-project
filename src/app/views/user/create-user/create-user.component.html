@@ -1,4 +1,10 @@
-<mat-card class="content-create-user">
+<mat-card class=" create content-create-user">
+    <mat-card-title class="title">
+        Desja criar um novo usuario ? 
+    </mat-card-title>
+    
+    
+    
     <form class="forms">
         <div class="input-box">
             <p>Nome</p>
@@ -28,7 +34,16 @@
             <p>Escolha sua foto</p>
             <input type="file" />
         </div>
+        <div class="button-box">
+            
+            <a routerLink="/users">
+                <button class="btn-send">ENVIAR</button>
+            </a>
+            <a routerLink="/users">
+                <button class="btn-cancel">Cancelar</button>
+            </a>
+        </div>
         
-        <button class="btn-send">ENVIAR</button>
+        
     </form>
 </mat-card>

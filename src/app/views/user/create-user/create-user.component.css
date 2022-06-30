@@ -1,12 +1,13 @@
 *{
-    color: black;
     margin: 0;
     padding: 0;
 }
 
-input{
-    height: 40px;
-    width: 100%;
+
+
+.create{
+    display: flex;
+    flex-direction: column;
 }
 
 .content-create-user{
@@ -16,6 +17,7 @@ input{
     padding: 20px;
 }
 .forms{
+    color: black;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -27,7 +29,19 @@ input{
     margin-top: 10px;
 }
 
+.button-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .btn-send{
     margin-top: 20px;
-    color: white;
+    width: 150px;
+}
+
+.btn-cancel{
+    margin-top: 20px;
+    background-color: red;
+    width: 150px;
 }

@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+.list{
+    padding: 20px;
+}
 .create-new-user{
-    width: 100%;
     display: flex;
     align-items: center;
 }

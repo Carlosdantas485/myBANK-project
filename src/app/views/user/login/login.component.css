@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-login{
+    width: 40vw;
+    background-color: white;
+    padding: 20px;
+}
+
+.enviar{
+    margin-top: 20px;
+    width: 100%;
+}
