@@ -7,6 +7,7 @@ import { CreateUserComponent } from './views/user/create-user/create-user.compon
 import { UpdateUserComponent } from './views/user/update-user/update-user.component';
 import { LoginComponent } from './views/user/login/login.component';
 import { ListDepositComponent } from './views/deposit/list-deposit/list-deposit.component';
+import { DepositComponent } from './views/deposit/deposit/deposit.component';
 const routes: Routes = [
   {
     path:"",
@@ -29,8 +30,12 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path:"deposits",
+    path:"deposits/list",
     component: ListDepositComponent
+  },
+  {
+    path:"deposit",
+    component: DepositComponent
   }
 ];
 

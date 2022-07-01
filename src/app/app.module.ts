@@ -23,6 +23,7 @@ import { ListUsersComponent } from './views/user/list-users/list-users.component
 import { UpdateUserComponent } from './views/user/update-user/update-user.component';
 import { LoginComponent } from './views/user/login/login.component';
 import { ListDepositComponent } from './views/deposit/list-deposit/list-deposit.component';
+import { DepositComponent } from './views/deposit/deposit/deposit.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ListDepositComponent } from './views/deposit/list-deposit/list-deposit.
     ListUsersComponent,
     UpdateUserComponent,
     LoginComponent,
-    ListDepositComponent
+    ListDepositComponent,
+    DepositComponent
   ],
   imports: [
     BrowserModule,
