@@ -25,6 +25,8 @@ import { LoginComponent } from './views/user/login/login.component';
 import { ListDepositComponent } from './views/deposit/list-deposit/list-deposit.component';
 import { DepositComponent } from './views/deposit/deposit/deposit.component';
 
+import { MatSnackBarModule} from '@angular/material/snack-bar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,6 +53,7 @@ import { DepositComponent } from './views/deposit/deposit/deposit.component';
     MatSlideToggleModule,
     MatBadgeModule,
     AppRoutingModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

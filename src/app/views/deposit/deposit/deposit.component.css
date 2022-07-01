@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .form{
     color: black;
     margin: 20px;
@@ -37,10 +38,6 @@
     border: 3px solid #3F51B5;
     box-shadow: 1px 1px 10px 1px rgb(95, 95, 95);
     margin-bottom: 20px;
-}
-
-.info{
-
 }
 
 .input-deposit{
