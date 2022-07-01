@@ -1,8 +1,12 @@
-<mat-card class=" create content-create-user">
+<mat-card class=" create ">
     <mat-card-title class="title">
         Desja criar um novo usuario ? 
     </mat-card-title> 
     <form class="forms">
+        <div class="input-box">
+            <p>Escolha sua foto</p>
+            <input type="file" />
+        </div>
         <div class="input-box">
             <p>Nome</p>
             <input type="text" name="" id="" placeholder="Digite seu nome">
@@ -27,10 +31,7 @@
             <p>Saldo</p>
             <input type="text" name="" id="" placeholder="Digite o saldo da conta">
         </div>
-        <div class="input-box">
-            <p>Escolha sua foto</p>
-            <input type="file" />
-        </div>
+        
         <div class="button-box">
             <a routerLink="/users">
                 <button class="btn-send">ENVIAR</button>

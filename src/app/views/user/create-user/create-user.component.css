@@ -3,20 +3,22 @@
     padding: 0;
 }
 
-
-
 .create{
+   
     display: flex;
     flex-direction: column;
-}
-
-.content-create-user{
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+
+
+}
+
+.title{
+    width: 100%;
+    display: flex;
 }
 .forms{
+    margin-top: 20px;
     color: black;
     background-color: white;
     display: flex;
