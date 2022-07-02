@@ -1,230 +1,340 @@
-
-<mat-card class="list" >
-    <mat-card-title class="title">
-        Bem-vindo ao MyBANK
+<mat-card class="title">
+    <mat-card-title >
+        Usuários
     </mat-card-title>
+</mat-card>
+
+<mat-card class="users-view" >
     <mat-card-subtitle class="subtitle">
-        <p>Nosso sistema de banco utiliza as ferarmenta mais seguras e atualizadas do mercado.</p>
-        <div class="create-new-user">
+        <div class="options-page">
             <a routerLink="/users/create"> <button class="btn">NOVO USUARIO</button></a>
             <div class="search">
-                <input type="text" placeholder="Buscar usuario por ID">
-                <a routerLink="/users/create"> <button class="btn">BUSCAR</button></a>
+                <input type="text"  class="input-search" placeholder="Buscar usuario por ID">
+                <a routerLink="/users/create" > 
+                    <button class="btn-search">
+                        <i class="material-icons">
+                            zoom_in
+                        </i>
+                        Buscar
+                    </button>
+                </a>
             </div>
         </div>
     </mat-card-subtitle>    
-    <div class="content-list-users">
-        <ul>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+ 
+    <ul class="list-users">
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 1</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                        </div>
-                        <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                        <a routerLink="/deposit">
-                            <button class="btn">DEPOSITAR</button>
-                        </a>
-                </div>
-            </li>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 2</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                    </div>
-                    <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <a routerLink="/deposit">
-                        <button class="btn">DEPOSITAR</button>
-                    </a>
-                </div>
-            </li>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 3</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                    </div>
-                    <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <a routerLink="/deposit">
-                        <button class="btn">DEPOSITAR</button>
-                    </a>
-                </div>
-            </li>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 4</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                    </div>
-                    <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <a routerLink="/deposit">
-                        <button class="btn">DEPOSITAR</button>
-                    </a>
-                </div>
-            </li>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 5</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                    </div>
-                    <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <a routerLink="/deposit">
-                        <button class="btn">DEPOSITAR</button>
-                    </a>
-                </div>
-            </li>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 6</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                    </div>
-                    <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <a routerLink="/deposit">
-                        <button class="btn">DEPOSITAR</button>
-                    </a>
-                </div>
-            </li>
-            <li class="user">
-                <div class="edit-options">
-                    <a routerLink="/users/update">
-                        <button class="edit">
-                            <i class="material-icons">
-                                edit
-                            </i>
-                        </button>
-                    </a>
-                    <button class="delete">
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
                         <i class="material-icons">
-                            delete
+                            edit
                         </i>
                     </button>
-                </div>
-                <div class="info-user">
-                    <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                    <div>
-                        <h1>Conta: 7</h1>
-                        <h1>Carlos Alberto Dantas Filho</h1>
-                        <p>Email: carlosdantas485@gmail.com</p>
-                        <p>Idade: 26</p>
-                        <p>Telefone: (11) 98350-2027</p>
-                    </div>
-                    <h3 class="balance">Saldo: R$ 1.000.000,00</h3>
-                    <button>Fazer depósito</button>
-                </div>
-            </li>
-        </ul>
-    </div>
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
+                        <i class="material-icons">
+                            edit
+                        </i>
+                    </button>
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
+                        <i class="material-icons">
+                            edit
+                        </i>
+                    </button>
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+        <li class="user">
+            <div class="edit-options">
+                <a routerLink="/users/update">
+                    <button class="edit">
+                        <i class="material-icons">
+                            edit
+                        </i>
+                    </button>
+                </a>
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
+            </div>
+            <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
+            <div class="info-user">
+                <h1>Conta: 1</h1>
+                <h1>Carlos Alberto Dantas Filho</h1>
+                <p>Email: carlosdantas485@gmail.com</p>
+                <p>Idade: 26</p>
+                <p>Telefone: (11) 98350-2027</p>
+            </div>
+                    
+            <mat-card class="balance-deposit">
+                <h3 class="balance">SALDO: R$ 1.000.000,00</h3>
+                <a routerLink="/deposit">
+                    <button class="btn">DEPOSITAR</button>
+                </a>
+            </mat-card>
+        </li>
+    </ul>
+    
 </mat-card>
 <div class="bannerTower">
 </div>

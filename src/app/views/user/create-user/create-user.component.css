@@ -1,49 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.create{
-   
+.card-forms{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-
 }
 
-.title{
-    width: 100%;
-    display: flex;
-}
 .forms{
+    width: 40vw;
+
     margin-top: 20px;
-    color: black;
-    background-color: white;
     display: flex;
     flex-direction: column;
-    width: 400px;
     padding: 20px;
 }
 
-.input-box{
-    margin-top: 10px;
-}
-
-.button-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .btn-send{
-    margin-top: 20px;
-    width: 150px;
-}
-
-.btn-cancel{
-    margin-top: 20px;
-    background-color: red;
-    width: 150px;
+    width: 40vw;
 }

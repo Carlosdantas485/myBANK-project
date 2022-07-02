@@ -27,6 +27,9 @@ import { DepositComponent } from './views/deposit/deposit/deposit.component';
 
 import { MatSnackBarModule} from '@angular/material/snack-bar';
 
+import {MatFormFieldModule} from'@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,7 +56,9 @@ import { MatSnackBarModule} from '@angular/material/snack-bar';
     MatSlideToggleModule,
     MatBadgeModule,
     AppRoutingModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

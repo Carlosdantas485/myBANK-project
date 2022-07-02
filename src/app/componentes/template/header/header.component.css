@@ -1,13 +1,3 @@
-span{
-    display: flex;
-    width: 30vw;
-    justify-content: space-between;
-}
-.btn-deposit{
-   
-    background-color: rgb(137, 228, 1);
-    color: rgb(0, 0, 0);
-}
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -29,10 +19,18 @@ span{
 .options{
     display: flex;
     align-items: center;
+    
 }
+.btn-header{
+    margin: 5px;
+    background-color: transparent;
+}
+
+
 
 .login{
     width: 120px;
     background-color: rgb(40, 132, 218);
     text-decoration: underline;
+    margin-right: 10px;
 }

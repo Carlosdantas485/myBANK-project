@@ -1,11 +1,12 @@
-
+<mat-card >
+    <mat-card-title >
+        Histórico de depósitos
+    </mat-card-title>
+</mat-card>
 <mat-card class="update mat-elevation-z3" >
-    <h1>Deseja ediatar este usuario ?</h1>
-    <div class="info-user">
-        
-        <div class="info-user">
+        <div class="user">
             <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-            <div>
+            <div class="infos-user">
                 <h1>Conta: 1</h1>
                 <h1>Carlos Alberto Dantas Filho</h1>
                 <p>Email: carlosdantas485@gmail.com</p>
@@ -14,32 +15,30 @@
             </div>
         </div>
 
-        <form class="form">
-            <div class="input">
-                <p>nome</p>
-                <input type="text" placeholder="Digite seu nome">
-            </div>
-            <div class="input" >
-                <p>E-mail</p>
-                <input type="text" placeholder="Digite deu e-mail">
-            </div>
-            <div class="input">
-                <p>Idade</p>
-                <input type="text" placeholder="Digite sua idade">
-            </div>
-            <div class="input">
-                <p>Telefone</p>
-                <input type="text" placeholder="Digite seu telefone">
-            </div>
-            <div class="button-box">
-                <a routerLink="/users">
-                    <button class="send">ENVIAR</button>
-                </a>
-                <a routerLink="/users">
-                    <button class="cancel">CANCELAR</button>
-                </a>
-            </div>
-            
+        <form class="forms-user">  
+            <mat-form-field>
+                <input matInput placeholder="NOME" 
+                name="name"
+                />
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="E-MAIL" 
+                name="email"
+                />
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="TELEFONE" 
+                name="phone"
+                />
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="IDADE" 
+                name="age"
+                />
+            </mat-form-field>
+            <a routerLink="/users">
+                <button id="btn-update">ENVIAR</button>
+            </a>
         </form>
-    </div>
+        
 </mat-card>

@@ -9,20 +9,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 *{
     outline: none;
+    margin: 0;
+    padding: 0;
 }
+
 button{
     height: 40px;
     background-color: #3F51B5;
     border: none;
     cursor: pointer;
-    margin: 0 5px;
+    padding: 5px;
     color: white;
     font-weight: bold;
 }
+
 li{
+
     list-style: none;
 }
 input {
     height: 40px;
-    width: 100%;
 }

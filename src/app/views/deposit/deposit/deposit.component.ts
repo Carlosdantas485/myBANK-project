@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DepositService } from './deposit.service';
+import { DepositService } from '../deposit.service';
+import { Deposit } from '../home.model';
 
 @Component({
   selector: 'app-deposit',
@@ -8,17 +9,23 @@ import { DepositService } from './deposit.service';
 })
 export class DepositComponent implements OnInit {
 
+  deposit: Deposit = {
+    account: null,
+    dataDeposit: null,
+    amount: null
+  }
   constructor(private depositService: DepositService) { }
 
   ngOnInit(): void {
   }
 
   createDeposit():void{
-    this.depositService.showMesage("Deposito resalizado com sucesso !")
+    this.depositService.create(this.deposit).subscribe(()=> {
+      this.depositService.showMesage("Operacao bem susedida")
+    })
+    
   }
 
-  errDeposit():void{
-    this.depositService.showMesage("Nao foi possivel realizar o depósito !")
-  }
+
 
 }

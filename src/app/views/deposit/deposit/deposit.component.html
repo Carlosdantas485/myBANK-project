@@ -1,36 +1,30 @@
-<mat-card class="deposit mat-elevation-z3" >
+<mat-card >
     <mat-card-title class="title">
         Faça um deposito para um amigo !
     </mat-card-title>
-    <mat-card-subtitle class="subtitle">
-
-        <form type="submit" class="form">
-            <mat-card-title class="title-form">
-                <p> AGENDAR DEPOSITO</p>
-                <p>HOJE: 01/07/2020</p>
-            </mat-card-title>
-            <div class="account-info">
-                <img class="photo-user" src="../../../../assets/img/photo.jpg" alt="">
-                <div >
-                    <h1>Numero da conta: 1</h1>
-                    <p>Nome: Carlos Alberto Dantas Filho</p>
-                    <p>E-mail: carlosdantas485@mail.com</p>
-                    <p>Phone: (11) 98350-2027</p>
-                    <p>Idade: 26</p>
-                </div>
-            </div>
-            
-            <div class="input-deposit">
-                <p>DATA DE AGENDAMENTO</p>
-                <input type="text" placeholder="DIGITE UMA DATA ">
-            </div>
-            <div class="input-deposit">
-                <p>VALOR</p>
-                <input type="text" placeholder="DIGITE UM VALOR">
-            </div>
-            <a routerLink="/users">
-                <button (click)=" createDeposit()">ENVIAR</button>
-            </a>
-        </form>
-    </mat-card-subtitle>
+</mat-card>
+<mat-card class="deposit">
+    <form class="forms-deposit">  
+        <mat-form-field>
+            <input matInput placeholder="Conta" 
+            [(ngModel)]="deposit.account" 
+            name="account"
+            />
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Data" 
+            [(ngModel)]="deposit.dataDeposit" 
+            name="dataDeposit"
+            />
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="valor (R$)" 
+            [(ngModel)]="deposit.amount" 
+            name="amount"
+            />
+        </mat-form-field>
+    </form>
+    <a routerLink="/users">
+        <button id="btn-send" (click)="createDeposit()">ENVIAR</button>
+    </a>
 </mat-card>

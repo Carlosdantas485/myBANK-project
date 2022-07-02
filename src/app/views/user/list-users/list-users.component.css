@@ -1,23 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
+
+.users-view{
+    margin-top: 10px;
 }
 
-.list{
-    padding: 20px;
-}
-.create-new-user{
+.options-page{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.search{
-    display: flex;
+.btn{
+    width: 150px;
 }
 
+.input-search{
+    height: 37px;
+}
+.btn-search{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    margin: 10px;
+}
+
+.list-users{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 500100%;
     margin-top: 10px;
     background-color: white;
     color: black;
@@ -27,17 +51,15 @@
 
 .photo-user{
     width: 90px;
-    border-radius: 50px;
+    border-radius: 50%;
     border: 3px solid #3F51B5;
     box-shadow: 1px 1px 10px 1px rgb(95, 95, 95);
-    margin-bottom: 20px;
 }
 
 .info-user{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .edit-options{
@@ -46,24 +68,28 @@
     justify-content: flex-end;
     align-items: center;
 }
-.edit-options button{
-    padding: 5px;
-    background-color: transparent;
-}
-
-.btn{
-    height: 40px;
-    padding: 10px;
-}
 
 .balance{
     text-decoration: underline;
     font-weight: bold;
+    margin: 0;
+}
+
+.balance-deposit{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .edit{
     color: green;
+    margin-right: 10px;
+    background-color: transparent;
 }
 .delete{
     color: red;
+    background-color: transparent;
+
 }

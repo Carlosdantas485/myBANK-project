@@ -1,62 +1,40 @@
-
-
 .update{
-    padding: 20px;
-}
-
-.info-user{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
 }
 
 .user{
-    padding: 20px;
-    margin-top: 10px;
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     color: black;
+    padding: 20px;
+    background-color: white;
 }
 
 .photo-user{
     width: 90px;
     border-radius: 50px;
     border: 5px solid #3F51B5;
-    margin: 20px;
 }
 
-.info-user{
-    background-color: white;
-    color: black;
-    padding: 20px;
+.infos-user{
+    margin: 10px;
 }
 
-.form{
-    width: 30vw;
-    flex-wrap: wrap;
-}
-
-.input{
-    margin-top: 10px;
-}
-.button-box{
-    width: 100%;
-    padding: 0;
-    margin: 0;
+.forms-user{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    margin: 10px;
 }
 
-.send{
-    margin-top: 20px;
-    width: 150px;
+#btn-update{
+    width: 40vw;
 }
 
-.cancel{
-    margin-top: 20px;
-    background-color: red;
-    width: 150px;
-}
 
