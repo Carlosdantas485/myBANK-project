@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DepositService } from '../deposit.service';
+import { Deposit } from '../deposit.model';
 
 @Component({
   selector: 'app-list-deposit',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListDepositComponent implements OnInit {
 
-  constructor() { }
+  deposits!: Deposit[];
+
+  constructor( private depositService: DepositService) { }
 
   ngOnInit(): void {
+    this.depositService.readDeposits().subscribe(deposits => {
+      this.deposits = deposits
+      console.log(deposits)
+
+    })
   }
 
 }

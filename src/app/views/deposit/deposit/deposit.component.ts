@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DepositService } from '../deposit.service';
-import { Deposit } from '../home.model';
+import { Deposit } from '../deposit.model';
 
 @Component({
   selector: 'app-deposit',
@@ -11,6 +11,7 @@ export class DepositComponent implements OnInit {
 
   deposit: Deposit = {
     account: null,
+    depositStatus: null,
     dataDeposit: null,
     amount: null
   }

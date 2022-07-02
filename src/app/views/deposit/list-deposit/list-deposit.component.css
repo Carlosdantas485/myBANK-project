@@ -36,6 +36,8 @@
 }
 
 .item-deposit{
+    width: 400px;
+    height: 200px;
     margin: 5px;
     padding: 20px;
     color: white;
@@ -52,12 +54,13 @@
 }
 
 .status p {
+    height: 20px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     color: white;
-    font-size: 20px;
     background-color: rgb(253, 194, 0);
     border-radius: 50px;
     margin-left: 20px;

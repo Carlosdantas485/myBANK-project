@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
-import { Deposit } from './home.model';
+import { Deposit } from './deposit.model';
 
 @Injectable({
   providedIn: 'root'
@@ -26,6 +26,8 @@ export class DepositService {
     return this.http.post<Deposit>(this.BASE_URL, deposit)
   }
 
-  
+  readDeposits(): Observable<Deposit[]>{
+    return this.http.get<Deposit[]>(this.BASE_URL)
+  }
 
 }
