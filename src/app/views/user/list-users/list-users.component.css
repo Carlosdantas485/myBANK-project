@@ -34,6 +34,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .user{
     display: flex;
@@ -41,10 +43,8 @@
     align-items: center;
     justify-content: center;
     margin: 5px;
-    width: 500100%;
     margin-top: 10px;
-    background-color: white;
-    color: black;
+    background-color: #707ecf;
     padding: 20px;
     box-shadow: 5px 5px 1px 0px rgb(0, 0, 0);
 }
@@ -78,13 +78,14 @@
 .balance-deposit{
     width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .edit{
-    color: green;
+    color: rgb(2, 207, 2);
     margin-right: 10px;
     background-color: transparent;
 }
