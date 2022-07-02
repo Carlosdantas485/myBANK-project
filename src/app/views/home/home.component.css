@@ -12,12 +12,36 @@
     color: black;
 }
 
-.img-people{
-    height: 200px;
-    border-radius: 50px;
+.img-dashboard{
+    width: 100%;
+    border-radius: 10px;
     border: 2px solid #3F51B5;
 }
 
 .banner-home{
     width: 100%;
+}
+
+.creator{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-people{
+    margin: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid #3F51B5;
+}
+
+.info-creator{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-info-creator{
+    width: 60vw;
+    margin-top: 20px;
 }
