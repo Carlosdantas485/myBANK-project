@@ -1,9 +1,7 @@
-.deposit{
-    margin-top: 10px;
-}
 .options-page{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -29,6 +27,7 @@
 }
 
 .deposit-list{
+    margin-top: 10px;
    color: black;
    display: flex;
    flex-wrap: wrap;
