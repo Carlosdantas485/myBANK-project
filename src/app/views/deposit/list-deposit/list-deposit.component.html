@@ -4,7 +4,7 @@
     </mat-card-title>
     <mat-card-subtitle class="subtitle">
         <div class="options-page">
-            <a routerLink="/deposit"> <button class="btn">NOVO DEPÓSITO</button></a>
+            <a routerLink="/deposits"> <button class="btn">NOVO DEPÓSITO</button></a>
             <div class="search">
                 <input type="text"  class="input-search" placeholder="Buscar depósito por ID">
                 <a routerLink="/users/create" > 
@@ -24,18 +24,33 @@
             *ngFor="let deposit of deposits"
         >
             <div class="status">
-                <h1>Deposito número: {{deposit.id}}</h1>
-                <p>{{deposit.depositStatus}}</p>
+                <h1>Depósito número: {{deposit.id}}</h1>
+                <p>{{deposit.dataNow}}</p>
             </div>
             <div class="info-deposit">
-                <h3>30/05/2022</h3>
+                <h3>{{deposit.dataDeposit}}</h3>
                 <i class="material-icons icon-transation">
                     keyboard_tab
                 </i>
-                <h3>30/06/2022 </h3>
+                <h3>{{deposit.dataDeposit}}</h3>
             </div>
             <div class="value"> 
-                <h1>Valor: R${{deposit.amount}}</h1>
+                <h1>Valor: R$ {{deposit.amount}},00</h1>
+            </div>
+            <div class="edit-options">
+                <a routerLink="/deposits/update/{{deposit.id}}">
+                    <button class="delete">
+                        <i class="material-icons">
+                            edit
+                        </i>
+                    </button>
+                </a>
+                
+                <button class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </button>
             </div>
         </li>
         

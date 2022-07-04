@@ -30,4 +30,14 @@ export class DepositService {
     return this.http.get<Deposit[]>(this.BASE_URL)
   }
 
+  readDepositsbyID(id: string): Observable<Deposit>{
+    const url = `${this.BASE_URL}/${id}`
+    return this.http.get<Deposit>(url)
+  }
+
+  update(deposit: Deposit ): Observable<Deposit>{
+    const url = `${this.BASE_URL}/${deposit.id}`
+    return this.http.put<Deposit>(url, deposit)
+  }
+
 }

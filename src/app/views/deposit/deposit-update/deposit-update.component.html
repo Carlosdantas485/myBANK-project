@@ -1,42 +1,37 @@
 <mat-card class="title-page">
     <mat-card-title class="title">
-        DEPOSITAR
+        UPDATE
     </mat-card-title>
 </mat-card>
 <mat-card class="deposit">
     <form class="forms-deposit">  
         <mat-form-field>
             <input matInput placeholder="Conta" 
-            [(ngModel)]="deposit.account" 
-            name="account"
+            name="depositStatus"
             />
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Dia" 
-            [(ngModel)]="deposit.dayDeposit" 
-            name="dayDeposit"
-            />
-        </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Mês" 
-            [(ngModel)]="deposit.dataDeposit" 
-            name="monthDeposit"
-            />
-        </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Ano" 
-            [(ngModel)]="deposit.yearDeposit" 
-            name="yearDeposit"
+            <input matInput placeholder="Data" 
+            name="dataDeposit"
             />
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="valor (R$)" 
-            [(ngModel)]="deposit.amount" 
+            name="amount"
+            />
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="valor (R$)" 
+            name="amount"
+            />
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="valor (R$)" 
             name="amount"
             />
         </mat-form-field>
     </form>
     <a routerLink="/deposits/list">
-        <button id="btn-send" (click)="createDeposit()">ENVIAR</button>
+        <button id="btn-send" >ENVIAR</button>
     </a>
 </mat-card>

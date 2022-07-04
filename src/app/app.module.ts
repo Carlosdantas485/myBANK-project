@@ -29,6 +29,7 @@ import { MatSnackBarModule} from '@angular/material/snack-bar';
 
 import {MatFormFieldModule} from'@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { DepositUpdateComponent } from './views/deposit/deposit-update/deposit-update.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import {MatInputModule} from '@angular/material/input';
     UpdateUserComponent,
     LoginComponent,
     ListDepositComponent,
-    DepositComponent
+    DepositComponent,
+    DepositUpdateComponent
   ],
   imports: [
     BrowserModule,

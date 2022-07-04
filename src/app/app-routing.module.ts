@@ -8,6 +8,7 @@ import { UpdateUserComponent } from './views/user/update-user/update-user.compon
 import { LoginComponent } from './views/user/login/login.component';
 import { ListDepositComponent } from './views/deposit/list-deposit/list-deposit.component';
 import { DepositComponent } from './views/deposit/deposit/deposit.component';
+import { DepositUpdateComponent } from './views/deposit/deposit-update/deposit-update.component';
 const routes: Routes = [
   {
     path:"",
@@ -34,8 +35,12 @@ const routes: Routes = [
     component: ListDepositComponent
   },
   {
-    path:"deposit",
+    path:"deposits",
     component: DepositComponent
+  },
+  {
+    path:"deposits/update/:id",
+    component: DepositUpdateComponent
   }
 ];
 

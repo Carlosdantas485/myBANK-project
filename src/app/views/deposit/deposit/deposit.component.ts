@@ -10,9 +10,13 @@ import { Deposit } from '../deposit.model';
 export class DepositComponent implements OnInit {
 
   deposit: Deposit = {
-    account: null,
-    depositStatus: null,
+    dayDeposit: null,
+    monthDeposit: null,
+    yearDeposit: null,
     dataDeposit: null,
+    dataNow: null,
+    depositStatus: null,
+    account: null,
     amount: null
   }
   constructor(private depositService: DepositService) { }
