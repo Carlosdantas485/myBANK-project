@@ -17,7 +17,8 @@ export class DepositComponent implements OnInit {
     dataNow: null,
     depositStatus: null,
     account: null,
-    amount: null
+    amount: null,
+    description: null
   }
   constructor(private depositService: DepositService) { }
 

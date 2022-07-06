@@ -7,5 +7,6 @@ export interface Deposit{
     dataNow: number|null,
     depositStatus: number|null,
     account: number|null,
-    amount: number|null
+    amount: number|null,
+    description: string|null,
 }

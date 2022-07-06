@@ -28,14 +28,15 @@
                 <p>{{deposit.depositStatus}}</p>
             </div>
             <div class="info-deposit">
-                <h3>{{deposit.dataDeposit}}</h3>
+                <h3>{{deposit.dataNow}}</h3>
                 <i class="material-icons icon-transation">
                     keyboard_tab
                 </i>
                 <h3>{{deposit.dataDeposit}}</h3>
             </div>
+            <h3>{{deposit.description}}</h3>
             <div class="value"> 
-                <h1>Valor: R$ {{deposit.amount}},00</h1>
+                <h1>Valor: R$ {{deposit.amount}}</h1>
             </div>
             <div class="edit-options">
                 <a routerLink="/deposits/update/{{deposit.id}}">
