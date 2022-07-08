@@ -1,3 +1,7 @@
+.title{
+    background-color: #3F51B5;
+}
+
 .options-page{
     width: 100%;
     display: flex;
@@ -8,6 +12,7 @@
 
 .btn{
     width: 150px;
+    background-color: #6392df;
 }
 
 .input-search{
@@ -20,6 +25,8 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    background-color: #6392df;
+
 }
 .search{
     display: flex;

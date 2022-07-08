@@ -1,10 +1,14 @@
+.title{
+    background-color: #3F51B5;
+}
+
 .update{
    margin-top: 10px;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
-   
+   background-color: #3F51B5;
 }
 
 .user{
@@ -35,6 +39,7 @@
 
 #btn-update{
     width: 40vw;
+    background-color: #6392df;
 }
 
 

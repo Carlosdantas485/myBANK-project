@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-color: #7BCB8E;
 }
 
 .header{
@@ -30,7 +31,7 @@
 
 .login{
     width: 120px;
-    background-color: rgb(40, 132, 218);
+    background-color: #6392df;
     text-decoration: underline;
     margin-right: 10px;
 }

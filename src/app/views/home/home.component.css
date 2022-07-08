@@ -1,8 +1,11 @@
-
+.home{
+    background-color:#3F51B5;
+}
 .item{
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    background-color:#3F51B5;
 }
 
 .graphic{
@@ -29,7 +32,7 @@
 
 .img-people{
     margin: 10px;
-    width: 200px;
+    height: 200px;
     border-radius: 50px;
     border: 2px solid #3F51B5;
 }
