@@ -3,7 +3,7 @@
         DEPOSITAR
     </mat-card-title>
 </mat-card>
-<mat-card class="deposit">
+<div class="deposit">
     <form class="forms-deposit">  
         <mat-form-field>
             <input matInput placeholder="Conta" 
@@ -35,9 +35,9 @@
             name="amount"
             />
         </mat-form-field>
+        <a routerLink="/deposits/list">
+            <button id="btn-send" (click)="createDeposit()">ENVIAR</button>
+        </a>
     </form>
-    <a routerLink="/deposits/list">
     
-        <button id="btn-send" (click)="createDeposit()">ENVIAR</button>
-    </a>
-</mat-card>
+</div>

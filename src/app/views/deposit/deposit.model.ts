@@ -8,5 +8,4 @@ export interface Deposit{
     depositStatus: number|null,
     account: number|null,
     amount: number|null,
-    description: string|null,
 }

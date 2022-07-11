@@ -18,7 +18,6 @@ export class DepositComponent implements OnInit {
     depositStatus: null,
     account: null,
     amount: null,
-    description: null
   }
   constructor(private depositService: DepositService) { }
 
@@ -28,8 +27,8 @@ export class DepositComponent implements OnInit {
   createDeposit():void{
     this.depositService.create(this.deposit).subscribe(()=> {
       this.depositService.showMesage("Operacao bem susedida")
+      
     })
-    
   }
 
 
